@@ -1,0 +1,27 @@
+{
+  "name": "mvcc-snapshot-handler",
+  "version": "0.1.0",
+  "description": "Application-layer MVCC with snapshot isolation (Node.js + MongoDB)",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "compaction": "node scripts/compaction.js",
+    "test": "echo \"Tests require devDependencies. Run 'npm install' with dev deps locally after registry fixes.\" && exit 0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.22.1",
+    "mongoose": "^6.11.0",
+    "uuid": "^9.0.0",
+    "winston": "^3.9.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "type": "commonjs"
+}
